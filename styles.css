@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: .2px;
+}
+
+main {
+    background-color: hsl(217, 19%, 24%);
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    margin: .7em;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+}
+
+h6 {
+    padding-bottom: 0;
+    margin-bottom: 1em;
+    font-size: 12px;
+    text-transform: uppercase;
+    color:hsl(150, 100%, 66%);
+    letter-spacing: 3.5px;
+    font-weight: 400;
+}
+
+p {
+    padding-top: 0;
+    font-size: 25px;
+    text-justify: inter-cluster;
+    margin-top: 0;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: .665em;
+}
+
+.dice-bg {
+    margin-top: .5em;
+    background-color: hsl(150, 100%, 66%);
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom: -26px;
+}
+
+.dice-bg:hover,
+.dice-bg:focus,
+.dice-bg:active {
+    background-color: rgb(126, 252, 189);
+    box-shadow: 1px 1px 30px  10px rgba(126, 252, 189, 0.363);
+}
+
+.attribution {
+    font-size: 1rem;
+    padding-bottom: 4.5em;
+    color:hsl(193, 38%, 86%);
+    padding-right: 1em;
+    padding: 1em 4em 4.5em 4em;
+}
+
+.attribution a {
+    color: hsl(150, 100%, 66%);
+    text-decoration: none;
+}
+
+.attribution a:hover,
+.attribution a:focus {
+    color: hsl(193, 38%, 86%);
+    text-shadow: 1px 1px 30px  10px rgba(126, 252, 189, 0.363);
+}
+
+@media (min-width: 430px) {
+    main {
+        margin-top: 6em;
+        width: 430px;
+        margin-bottom: 0;
+    }
+}
